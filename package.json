@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Irungaray/QueAcelga/issues"
   },
-  "homepage": "https://github.com/Irungaray/QueAcelga#readme"
+  "homepage": "https://github.com/Irungaray/QueAcelga#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }

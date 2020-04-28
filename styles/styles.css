@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'SegoePrint';
+    src: url('/fonts/segoePrint.TTF');
+  }
+  
+  @font-face{
+    font-family: 'SegoeScript';
+    src: url('/fonts/segoeScript.TTF');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SegoePrint';
+}
+
+body {
+    background-color: #92BE71;
+}
+
+h1, h2, p {
+    color: #FFFFFF;
+}
+
+.logo__div {
+    display: inline-block;
+}
+
+.logo {
+    width: 126px;
+    height: 215px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.logo__elipse {
+    margin-top: -17%;
+    margin-left: -18%;
+    max-width: 300;
+
+}
+
+.logo__titulo {
+    font-size: 57px;
+    position: absolute;
+    margin-top: -74%;
+    margin-left: 36%;
+    line-height: 70px;
+}
+
+.logo__subtitulo {
+    font-size: 30px;
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 36%;
+}
+
+.landing {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.valores h2 {
+    font-size: 30px;
+}
+
+.valores h1 {
+    font-size: 51px;
+}
+
+.parrafo {
+    font-size: 33px;
+    text-align: center;
+}
+
+.ingresar__button {
+    width: 69px;
+    width: 69px;
+    display:block;
+    margin:auto;
+}
